@@ -1,0 +1,22 @@
+Parsing file Z3NcphwMG1v655.s37...
+Parse .s37 format for flash
+Flash Usage:
+  Reserved for Bootloader:                0x00000000-0x00003fff (16384 bytes)
+  CODE and Tables:                        0x00004000-0x000302d3 (180948 bytes)
+  CONST and INITC:                        0x000302d4-0x00032d5f (10892 bytes)
+  Available for future use:               0x00032d60-0x00036fff (17056 bytes)
+  Reserved for SIMEE:                     0x00037000-0x0003ffff (36864 bytes)
+
+Usage Summary:
+  262144 total bytes Flash, 245088 used, 17056 available
+
+Setting AAT timestamp to current time: 0x5d0a6259
+Create ebl image file
+Wrote image stamp into AAT.
+DONE
+Parsing file Z3NcphwMG1v655.s37...
+Initializing GBL file...
+Adding application to GBL...
+Writing GBL file Z3NcphwMG1v655.gbl...
+DONE
+Note that this GBL file does not use encryption or digital signing.  Please refer to UG266 for more information about enabling these features from your S37 files.

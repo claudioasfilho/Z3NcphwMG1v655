@@ -1,0 +1,3 @@
+INFO:root:Creation of 32 bit srec file: "/home/clfilho/SimplicityStudio_v4/developer/toolchains/gnu_arm/7.2_2017q4/bin/arm-none-eabi-objcopy" --srec-forceS3 -O srec "Z3NcphwMG1v655.axf" "Z3NcphwMG1v655.s37"
+INFO:root:Creation of ebl file: /home/clfilho/SimplicityStudio_v4/developer/adapter_packs/commander/commander ebl create "Z3NcphwMG1v655.ebl" --app "Z3NcphwMG1v655.s37" --device EFR32MG1P232F256GM48 
+INFO:root:Creation of gbl file: /home/clfilho/SimplicityStudio_v4/developer/adapter_packs/commander/commander gbl create "Z3NcphwMG1v655.gbl" --app "Z3NcphwMG1v655.s37" --device EFR32MG1P232F256GM48
